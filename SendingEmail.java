@@ -5,9 +5,9 @@ import jakarta.mail.internet.*;
 
 public class SendingEmail {
     public static void main(String[] args) {
-        final String senderEmail ="jeepitwitter@gmail.com";
-        final String senderPassword="sfhlvucfdjoozmic";
-        final String reciverEmail="lamichhanenayan099@gmail.com";
+        final String senderEmail ="jeepitwitter@gmail.com";//ur email
+        final String senderPassword="16 letter code(without space)";//ur app password
+        final String reciverEmail="demo@gmail.com";//reciver email
 
 
 
@@ -36,8 +36,8 @@ public class SendingEmail {
                 Message.RecipientType.TO,
                  InternetAddress.parse(reciverEmail)
                  );
-            message.setSubject("Email sent from Jeevsan Shrestha");
-            message.setText("Besh ki makichut");
+            message.setSubject("Email sent from Jeevsan Shrestha");//email subject
+            message.setText("hello world");//email body
 
             Transport.send(message);
 
