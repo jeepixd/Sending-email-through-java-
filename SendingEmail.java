@@ -1,4 +1,4 @@
-/*
+
 import java.util.Properties;
 import jakarta.mail.*;
 import jakarta.mail.internet.*;
@@ -7,7 +7,7 @@ import jakarta.mail.internet.*;
 public class SendingEmail {
     public static void main(String[] args) {
         final String senderEmail ="jeepitwitter@gmail.com";//ur email
-        final String senderPassword="sfhlvucfdjoozmic";//ur app password
+        final String senderPassword="";//ur app password
         final String reciverEmail="hussguss64@gmail.com";//reciver email
 
 
@@ -52,7 +52,8 @@ public class SendingEmail {
     }
     
     }
-*/
+
+/*
 import java.awt.*;
 import java.awt.event.*;
 import java.util.Properties;
@@ -156,3 +157,4 @@ public class SendingEmail extends Frame {
         new SendingEmail();
     }
 }
+*/
